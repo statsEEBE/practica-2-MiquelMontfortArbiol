@@ -37,7 +37,7 @@ plot(x,y)
 lines(x,y_pred)
 plot(x,y_pred)
 
-#calcula el coeficiente de correlacion^2
+#calcula el coeficiente de determinació = R^2
 
 R_sq <- sum((y_pred-y_barra)^2)/sum((y-y_barra)^2)
 R_sq
